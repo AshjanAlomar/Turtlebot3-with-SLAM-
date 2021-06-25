@@ -1,7 +1,7 @@
 # Turtlebot3 with SLAM
 Steps of How to Use Turtlebot3 with SLAM approach to create and save a map :
 
-Because am using mac I had a trouble when am tiring to download Ros and Ros packages so I use her the Ros Development studio ( http://rosds.online/ ) 
+Because am using mac I had a trouble when am trying to download Ros and Ros packages so I use her the Ros Development studio ( http://rosds.online/ ) 
 
 This is the three sources that I use to Turtlebot3 with SLAM approach to create and save a map all of them in github :
 1)	https://github.com/ROBOTIS-GIT/turtlebot3.git
@@ -10,7 +10,7 @@ This is the three sources that I use to Turtlebot3 with SLAM approach to create 
 
 the first thing that I did is to upload this files I upload file 1 and 3 in   $ catkin_ws/src/ and file 2 in $ simulation_ws/src/  and I compile the $ catkin_ws/ by ``` $ catkin_make ``` and I do the same for $ simulation_ws/ by ``` $ catkin_make ```
 
-so first we going to specify what turtlebot3 model we are using in the simulation_ws file hit ``` $ export TURTLEBOT3_MODEL=burger```  so now that we did that we can actually launch our simulation so we are going to type ``` $ roslaunch turtlebot3_gazebo turtlebot3_world.launch```  now it’s launching the simulation so it’s waiting for the services and in order for us to see it we goanna open gazebo and this is it this is the simulation 
+so first we going to specify what turtlebot3 model we are using in the simulation_ws file hit ``` $ export TURTLEBOT3_MODEL=burger```  so now that we did that we can actually launch our simulation so we are going to type ``` $ roslaunch turtlebot3_gazebo turtlebot3_world.launch```  now it’s launching the simulation so it’s waiting for the services and in order for us to see it we gonna open gazebo and this is it this is the simulation 
 
 ![image](https://user-images.githubusercontent.com/86170422/123352331-bf22aa80-d567-11eb-8f5a-1f5f69ec2774.png)
 
